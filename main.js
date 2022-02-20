@@ -4,8 +4,8 @@ window.addEventListener('load', () => {
     const list_el= document.querySelector("#tasks");
     const finalTask = localStorage.getItem('finalTask');
      
-    form.addEventListener('submit', (w) => {
-        w.preventDefault();
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
         
         const task = input.value;
        
